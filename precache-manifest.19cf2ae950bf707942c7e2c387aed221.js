@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8bc1d25e512a0e5cacffe57e02583e5b",
+    "revision": "981f7dc4232c673257baf606ec1a1b5e",
     "url": "/color-to-hex/index.html"
   },
   {
-    "revision": "efcb36f9b8c710edeb21",
+    "revision": "2209c0c736636a1b932f",
     "url": "/color-to-hex/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/color-to-hex/static/js/2.b48f5b54.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "efcb36f9b8c710edeb21",
-    "url": "/color-to-hex/static/js/main.c7edca9b.chunk.js"
+    "revision": "2209c0c736636a1b932f",
+    "url": "/color-to-hex/static/js/main.3573f1e7.chunk.js"
   },
   {
     "revision": "a0b1622089cf8349333a",
