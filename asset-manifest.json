@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/color-to-hex/static/css/main.5f361e03.chunk.css",
+    "main.js": "/color-to-hex/static/js/main.c7edca9b.chunk.js",
+    "main.js.map": "/color-to-hex/static/js/main.c7edca9b.chunk.js.map",
+    "runtime-main.js": "/color-to-hex/static/js/runtime-main.af8267a1.js",
+    "runtime-main.js.map": "/color-to-hex/static/js/runtime-main.af8267a1.js.map",
+    "static/js/2.b48f5b54.chunk.js": "/color-to-hex/static/js/2.b48f5b54.chunk.js",
+    "static/js/2.b48f5b54.chunk.js.map": "/color-to-hex/static/js/2.b48f5b54.chunk.js.map",
+    "index.html": "/color-to-hex/index.html",
+    "precache-manifest.ae21c2a0539e831862e1ca4f56adc8a1.js": "/color-to-hex/precache-manifest.ae21c2a0539e831862e1ca4f56adc8a1.js",
+    "service-worker.js": "/color-to-hex/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/color-to-hex/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.b48f5b54.chunk.js.LICENSE.txt": "/color-to-hex/static/js/2.b48f5b54.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/color-to-hex/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af8267a1.js",
+    "static/js/2.b48f5b54.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.c7edca9b.chunk.js"
+  ]
+}
