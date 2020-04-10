@@ -32,7 +32,7 @@ function App() {
 		return ['a', 'r', 'g', 'b'].reduce((acc, v) => {
 			let b = [0, 0, 0, 0];
 			write(b, _color[v], 0, endianness === 'little', 23, 4);
-			b = b.map(v => v.toString(16)).join('');
+			b = b.map(v => ("00" + v.toString(16)).slice(-2)).join('');
 			return acc + ' ' + b;
 
 		}, '');
