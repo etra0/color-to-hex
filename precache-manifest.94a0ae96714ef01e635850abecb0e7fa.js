@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "981f7dc4232c673257baf606ec1a1b5e",
+    "revision": "84c434e484f9d701d59a94c1827ddcb6",
     "url": "/color-to-hex/index.html"
   },
   {
-    "revision": "2209c0c736636a1b932f",
+    "revision": "7d9c0836fba4ff777d2d",
     "url": "/color-to-hex/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "ff13a53a1e948131c3df",
-    "url": "/color-to-hex/static/js/2.b48f5b54.chunk.js"
+    "revision": "dc9e84517f924e89a8ac",
+    "url": "/color-to-hex/static/js/2.2cb0f069.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/color-to-hex/static/js/2.b48f5b54.chunk.js.LICENSE.txt"
+    "url": "/color-to-hex/static/js/2.2cb0f069.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2209c0c736636a1b932f",
-    "url": "/color-to-hex/static/js/main.3573f1e7.chunk.js"
+    "revision": "7d9c0836fba4ff777d2d",
+    "url": "/color-to-hex/static/js/main.59ec28fe.chunk.js"
   },
   {
     "revision": "a0b1622089cf8349333a",
