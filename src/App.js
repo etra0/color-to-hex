@@ -22,14 +22,17 @@ const theme = createMuiTheme({
 });
 
 function App() {
-	const [color, setColor] = useState({r: 0, g: 0, b: 0, a: 0});
+	const [color, setColor] = useState({r: 0, g: 0, b: 0, a: 1});
 	const [endianness, setEndianness] = useState('little')
+  const [format, setFormat] = useState('ARGB')
 
 	const generate_aob = color => {
 		const _color = JSON.parse(JSON.stringify(color));
 		['r', 'g', 'b'].map(v => {_color[v] = (_color[v]/255)});
 		_color.a = (_color.a);
-		return ['a', 'r', 'g', 'b'].reduce((acc, v) => {
+
+    let order = format === 'ARGB' ? ['a', 'r', 'g', 'b'] : ['r', 'g', 'b', 'a'];
+		return order.reduce((acc, v) => {
 			let b = [0, 0, 0, 0];
 			write(b, _color[v], 0, endianness === 'little', 23, 4);
 			b = b.map(v => ("00" + v.toString(16)).slice(-2)).join('');
@@ -55,6 +58,15 @@ function App() {
 						onChange={v => setEndianness(v.target.value)} >
 						<MenuItem value='little'>Little-endian</MenuItem>
 						<MenuItem value='big'>Big-endian</MenuItem>
+					</Select>
+				</div>
+				<div style={{margin: 20}}>
+					<InputLabel>Format</InputLabel>
+					<Select
+						value={format}
+						onChange={v => setFormat(v.target.value)} >
+						<MenuItem value='ARGB'>ARGB (Yakuza 0 Pibs)</MenuItem>
+						<MenuItem value='RGBI'>RGBI (Yakuza Kiwami 2 Pibs)</MenuItem>
 					</Select>
 				</div>
 				<p>Copy the bytes</p>
